@@ -1,0 +1,76 @@
+[
+ {
+    "title":"Carly's Family",
+    "desc":"Carly has a large family. She lives with four people. Carly also has two pets. Carly’s mom is a doctor. Carly’s mom works at the hospital. Carly’s mom helps people who are sick. Carly’s dad works at home. Carly’s dad cooks for the family. Carly’s dad drives the kids to soccer practice. Carly has two brothers. James is ten years old. Scott is fourteen years old. Carly has two pets. Jinx is a small, black cat. Diego is a large, brown dog. Carly loves her family!",
+    "questions":[
+                 {
+                    "text":"How many people are in Carly's family?",
+                    "answer":2,
+                    "answers":["A. four","B. five","C. six"]
+                 },
+                 {
+                    "text": "Carly's mom works at the",
+                    "answer":3,
+                    "answers":["A. resturant", "B. mall", "C. hospital"]
+                 
+                 },
+                 {
+                    "text":"Which of the following is most likely true?",
+                    "answer":3,
+                    "answers":["A. Carly's mom coaches the soccer team.",
+                               "B. James is the best soccer player in the family.",
+                               "C. Jinx and Diego are part of Carly's family."]
+                 },
+                 {
+                    "text": "The oldest brother in Carly's family is ?",
+                    "answer": 2,
+                    "answers":["A. James","B. Scott", "C. Diego"]
+                 
+                 }
+                 
+                ]
+ },
+ {
+    "title":"Spider Webs",
+    "desc":"All spiders spin webs. That's because webs help spiders. Webs help spiders do three things. Webs help spiders hold eggs. Webs help spiders hide. And webs help spiders catch food. Webs help spiders hold eggs. Many spiders like to lay their eggs in their webs. The webs help keep the eggs together. Webs help spiders keep their eggs safe. Webs help spiders hide. Most spiders are dark. They are brown, grey, or black. But spider webs are light. They are white and cloudy. When spiders hide in their webs, they are harder to see. Webs help spiders catch food. Spider webs are sticky. When a bug flies into the web, it gets stuck. It moves around. It tries to get out. But it can't. It is trapped! Spiders can tell that the bug is trapped. That's because spiders feel the web move. And the spider is hungry. The spider goes to get the bug. As you can see, webs help spiders hold eggs. Webs help spiders hide. And webs help spiders catch food. Without webs, spiders would not be able to live like they do. Spiders need their webs to survive!",
+    "questions":[
+                 {
+                    "text":"How can spiders tell when something is trapped in their web?",
+                    "answer":3,
+                    "answers":["A. They hear it.","B. They smell it.","C. They feel it"]
+                 },
+                 {
+                 "text": "Spider webs help spiders ?",
+                 "answer": 2,
+                 "answers":["A. attract other spiders.","B. catch food","C. find water"]
+                
+                 }
+                 ]
+ },
+ {
+    "title": "Robot",
+    "desc": " Long ago, people imagined robots. Over 2,000 years ago, a famous poet imagined robots. The poet’s name was Homer. His robots were made of gold. They cleaned things and they made things. But they were not real. They were imaginary. Nobody was able to make a real robot. The first real robot was made in 1961. It was called Unimate. It was used to help make cars. It looked like a giant arm. In the future, we will have even more robots. They will do things that we can’t do. Or they will do things that we don’t want to do. Or they will do things that are too dangerous for us. Robots will help us fight fires. They will help us fight wars. They will help us fight sickness. They will help us discover things.They will help make life better.",
+    "questions":[
+                 {
+                    "text":"According to the passage, when was the first real robot made?",
+                    "answer":1,
+                    "answers": ["A. 1961","B. 1900","C. 2003"]
+                 },
+                 {
+                    "text": "Using the information in the passage as a guide, which of these gives the best use of a robot?",
+                    "answer":3,
+                    "answers":["A. to help tie shoes","C. to help read a book", "D. to help explore Mars"]
+                 
+                 },
+                 {
+                    "text": "Which of these statements correctly summarizes how the author of this passage feels about robots?",
+                    "answer":3,
+                    "answers":["A. Robots are old.",
+                               "B. Robots are confusing.",
+                               "C. Robots are helpful"]
+                 }
+                ]
+ 
+ 
+ }
+ ]

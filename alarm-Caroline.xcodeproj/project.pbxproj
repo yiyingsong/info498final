@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1847AE7E1CF90C9400A0313B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847AE7D1CF90C9400A0313B /* AppDelegate.swift */; };
+		1847AE801CF90C9400A0313B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847AE7F1CF90C9400A0313B /* ViewController.swift */; };
+		1847AE851CF90C9400A0313B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1847AE841CF90C9400A0313B /* Assets.xcassets */; };
+		1847AE881CF90C9400A0313B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1847AE861CF90C9400A0313B /* LaunchScreen.storyboard */; };
+		1847AE901CF911A900A0313B /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847AE8F1CF911A900A0313B /* Alarm.swift */; };
+		1847AE931CF9280000A0313B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1847AE911CF9280000A0313B /* Main.storyboard */; };
+		1847AE951CF92DC700A0313B /* Alarmcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847AE941CF92DC700A0313B /* Alarmcell.swift */; };
+		1847AE971CFA5B3300A0313B /* AlarmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847AE961CFA5B3300A0313B /* AlarmList.swift */; };
+		1847AE991CFA61BF00A0313B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847AE981CFA61BF00A0313B /* AddViewController.swift */; };
+		1847AEA31CFCC6DB00A0313B /* CustomizeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847AE9C1CFCC6DB00A0313B /* CustomizeCell.swift */; };
+		1847AEA41CFCC6DB00A0313B /* DescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847AE9D1CFCC6DB00A0313B /* DescViewController.swift */; };
+		1847AEA51CFCC6DB00A0313B /* loud_alarm.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1847AE9E1CFCC6DB00A0313B /* loud_alarm.caf */; };
+		1847AEA61CFCC6DB00A0313B /* question.json in Resources */ = {isa = PBXBuildFile; fileRef = 1847AE9F1CFCC6DB00A0313B /* question.json */; };
+		1847AEA71CFCC6DB00A0313B /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847AEA01CFCC6DB00A0313B /* QuestionViewController.swift */; };
+		1847AEA81CFCC6DB00A0313B /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847AEA11CFCC6DB00A0313B /* QuizViewController.swift */; };
+		1847AEA91CFCC6DB00A0313B /* topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847AEA21CFCC6DB00A0313B /* topic.swift */; };
+		1847AEAB1CFCC77000A0313B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847AEAA1CFCC77000A0313B /* Question.swift */; };
+		1847AEB01CFCE26A00A0313B /* PressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847AEAE1CFCE26A00A0313B /* PressViewController.swift */; };
+		1847AEB11CFCE26A00A0313B /* TypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1847AEAF1CFCE26A00A0313B /* TypeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1847AE7A1CF90C9400A0313B /* alarm-Caroline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alarm-Caroline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1847AE7D1CF90C9400A0313B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1847AE7F1CF90C9400A0313B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1847AE841CF90C9400A0313B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1847AE871CF90C9400A0313B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1847AE891CF90C9400A0313B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1847AE8F1CF911A900A0313B /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		1847AE921CF9280000A0313B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "alarm-Caroline/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		1847AE941CF92DC700A0313B /* Alarmcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarmcell.swift; sourceTree = "<group>"; };
+		1847AE961CFA5B3300A0313B /* AlarmList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmList.swift; sourceTree = "<group>"; };
+		1847AE981CFA61BF00A0313B /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		1847AE9C1CFCC6DB00A0313B /* CustomizeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizeCell.swift; sourceTree = "<group>"; };
+		1847AE9D1CFCC6DB00A0313B /* DescViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescViewController.swift; sourceTree = "<group>"; };
+		1847AE9E1CFCC6DB00A0313B /* loud_alarm.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = loud_alarm.caf; sourceTree = "<group>"; };
+		1847AE9F1CFCC6DB00A0313B /* question.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = question.json; sourceTree = "<group>"; };
+		1847AEA01CFCC6DB00A0313B /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		1847AEA11CFCC6DB00A0313B /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		1847AEA21CFCC6DB00A0313B /* topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = topic.swift; sourceTree = "<group>"; };
+		1847AEAA1CFCC77000A0313B /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		1847AEAE1CFCE26A00A0313B /* PressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PressViewController.swift; sourceTree = "<group>"; };
+		1847AEAF1CFCE26A00A0313B /* TypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1847AE771CF90C9400A0313B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1847AE711CF90C9400A0313B = {
+			isa = PBXGroup;
+			children = (
+				1847AE7C1CF90C9400A0313B /* alarm-Caroline */,
+				1847AE7B1CF90C9400A0313B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1847AE7B1CF90C9400A0313B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1847AE7A1CF90C9400A0313B /* alarm-Caroline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1847AE7C1CF90C9400A0313B /* alarm-Caroline */ = {
+			isa = PBXGroup;
+			children = (
+				1847AEAE1CFCE26A00A0313B /* PressViewController.swift */,
+				1847AEAF1CFCE26A00A0313B /* TypeViewController.swift */,
+				1847AEAA1CFCC77000A0313B /* Question.swift */,
+				1847AEA21CFCC6DB00A0313B /* topic.swift */,
+				1847AE9D1CFCC6DB00A0313B /* DescViewController.swift */,
+				1847AEA11CFCC6DB00A0313B /* QuizViewController.swift */,
+				1847AEA01CFCC6DB00A0313B /* QuestionViewController.swift */,
+				1847AE9F1CFCC6DB00A0313B /* question.json */,
+				1847AE9E1CFCC6DB00A0313B /* loud_alarm.caf */,
+				1847AE9C1CFCC6DB00A0313B /* CustomizeCell.swift */,
+				1847AE911CF9280000A0313B /* Main.storyboard */,
+				1847AE981CFA61BF00A0313B /* AddViewController.swift */,
+				1847AE7D1CF90C9400A0313B /* AppDelegate.swift */,
+				1847AE7F1CF90C9400A0313B /* ViewController.swift */,
+				1847AE961CFA5B3300A0313B /* AlarmList.swift */,
+				1847AE941CF92DC700A0313B /* Alarmcell.swift */,
+				1847AE8F1CF911A900A0313B /* Alarm.swift */,
+				1847AE841CF90C9400A0313B /* Assets.xcassets */,
+				1847AE861CF90C9400A0313B /* LaunchScreen.storyboard */,
+				1847AE891CF90C9400A0313B /* Info.plist */,
+			);
+			path = "alarm-Caroline";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1847AE791CF90C9400A0313B /* alarm-Caroline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1847AE8C1CF90C9400A0313B /* Build configuration list for PBXNativeTarget "alarm-Caroline" */;
+			buildPhases = (
+				1847AE761CF90C9400A0313B /* Sources */,
+				1847AE771CF90C9400A0313B /* Frameworks */,
+				1847AE781CF90C9400A0313B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "alarm-Caroline";
+			productName = "alarm-Caroline";
+			productReference = 1847AE7A1CF90C9400A0313B /* alarm-Caroline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1847AE721CF90C9400A0313B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					1847AE791CF90C9400A0313B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZWVU43624G;
+					};
+				};
+			};
+			buildConfigurationList = 1847AE751CF90C9400A0313B /* Build configuration list for PBXProject "alarm-Caroline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1847AE711CF90C9400A0313B;
+			productRefGroup = 1847AE7B1CF90C9400A0313B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1847AE791CF90C9400A0313B /* alarm-Caroline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1847AE781CF90C9400A0313B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1847AE931CF9280000A0313B /* Main.storyboard in Resources */,
+				1847AE881CF90C9400A0313B /* LaunchScreen.storyboard in Resources */,
+				1847AEA61CFCC6DB00A0313B /* question.json in Resources */,
+				1847AEA51CFCC6DB00A0313B /* loud_alarm.caf in Resources */,
+				1847AE851CF90C9400A0313B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1847AE761CF90C9400A0313B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1847AE801CF90C9400A0313B /* ViewController.swift in Sources */,
+				1847AEA81CFCC6DB00A0313B /* QuizViewController.swift in Sources */,
+				1847AEA91CFCC6DB00A0313B /* topic.swift in Sources */,
+				1847AEA41CFCC6DB00A0313B /* DescViewController.swift in Sources */,
+				1847AE971CFA5B3300A0313B /* AlarmList.swift in Sources */,
+				1847AEA31CFCC6DB00A0313B /* CustomizeCell.swift in Sources */,
+				1847AE991CFA61BF00A0313B /* AddViewController.swift in Sources */,
+				1847AE7E1CF90C9400A0313B /* AppDelegate.swift in Sources */,
+				1847AE901CF911A900A0313B /* Alarm.swift in Sources */,
+				1847AEAB1CFCC77000A0313B /* Question.swift in Sources */,
+				1847AEB11CFCE26A00A0313B /* TypeViewController.swift in Sources */,
+				1847AE951CF92DC700A0313B /* Alarmcell.swift in Sources */,
+				1847AEB01CFCE26A00A0313B /* PressViewController.swift in Sources */,
+				1847AEA71CFCC6DB00A0313B /* QuestionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1847AE861CF90C9400A0313B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1847AE871CF90C9400A0313B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1847AE911CF9280000A0313B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1847AE921CF9280000A0313B /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1847AE8A1CF90C9400A0313B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1847AE8B1CF90C9400A0313B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1847AE8D1CF90C9400A0313B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "alarm-Caroline/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uw.alarm-Caroline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1847AE8E1CF90C9400A0313B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "alarm-Caroline/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uw.alarm-Caroline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1847AE751CF90C9400A0313B /* Build configuration list for PBXProject "alarm-Caroline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1847AE8A1CF90C9400A0313B /* Debug */,
+				1847AE8B1CF90C9400A0313B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1847AE8C1CF90C9400A0313B /* Build configuration list for PBXNativeTarget "alarm-Caroline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1847AE8D1CF90C9400A0313B /* Debug */,
+				1847AE8E1CF90C9400A0313B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1847AE721CF90C9400A0313B /* Project object */;
+}
