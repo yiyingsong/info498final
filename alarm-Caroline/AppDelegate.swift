@@ -21,21 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         /* REGISTER NOTIFICATION ACTIONS */
         
-        // AWAKE ACTION
-        let awakeAction = UIMutableUserNotificationAction()
-        awakeAction.identifier = "AWAKE_ACTION" // the unique identifier for this action
-        awakeAction.title = "Ok, I'm up!" // title for the action button
-        awakeAction.activationMode = .Background // UIUserNotificationActivationMode.Background - don't bring app to foreground
-        awakeAction.authenticationRequired = false // don't require unlocking before performing action
-        awakeAction.destructive = true // display action in red
+  
         
-        // ALARM CATEGORY
-        let alarmCategory = UIMutableUserNotificationCategory()
-        alarmCategory.identifier = "ALARM_CATEGORY"
-        alarmCategory.setActions([awakeAction], forContext: .Default)
-        alarmCategory.setActions([awakeAction], forContext: .Minimal)
-        
-        application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [.Alert, .Badge, .Sound], categories: nil))
+        application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [UIUserNotificationType.Alert,  UIUserNotificationType.Sound, UIUserNotificationType.Badge], categories: nil ))
         return true
     }
     
