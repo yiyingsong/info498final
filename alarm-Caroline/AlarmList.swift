@@ -86,16 +86,13 @@ class AlarmList {
         let dateFormatter = NSDateFormatter()
         dateFormatter.dateStyle = NSDateFormatterStyle.ShortStyle
         dateFormatter.timeStyle = NSDateFormatterStyle.ShortStyle
+        dateFormatter.timeZone  = NSTimeZone(name: "PDT")
         print("ALARM SCHEDULED FOR :", dateFormatter.stringFromDate(notification.fireDate!))
         
         UIApplication.sharedApplication().scheduleLocalNotification(notification)
     }
     
-   //Jingwen: Notification
-    /* 
  
- 
- */
     
     func cancelNotification (alarm: Alarm) {
         let ID: String = alarm.AlarmID
