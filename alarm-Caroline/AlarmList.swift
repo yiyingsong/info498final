@@ -79,7 +79,7 @@ class AlarmList {
         notification.userInfo = ["AlarmID": alarm.AlarmID]
         notification.alertBody = "Time to wake up!"
         notification.fireDate = alarm.wakeup
-        notification.soundName = UILocalNotificationDefaultSoundName
+        notification.soundName = "loud_alarm.caf"
         
         
         // For debugging purposes
