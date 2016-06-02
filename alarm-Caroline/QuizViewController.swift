@@ -38,7 +38,7 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         tableView.estimatedRowHeight = 68.0
         tableView.rowHeight = UITableViewAutomaticDimension
         retrieveOffline()
-        playBackgroundMusic("load_alarm.wrm")
+        playBackgroundMusic("loud_alarm.caf")
 
         // Do any additional setup after loading the view, typically from a nib.
         
