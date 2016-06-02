@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import AVFoundation
 
 class QuestionViewController: UIViewController {
-    var questions : [Question] = []
-    var transferQ : [Question] = []
+    var questions = [Question]()
+    var transferQ = [Question]()
     var qNum = 0
+    var sound : AVAudioPlayer!;
+
        
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet var buttons: [UIButton]!
@@ -33,8 +36,6 @@ class QuestionViewController: UIViewController {
     
     func RandomQuestion() {
         var total = questions.count
-        print(total)
-        print(questions);
         var randomNum = arc4random_uniform(UInt32(total))
         switch(randomNum){
         case 0: questionLabel.text = questions[0].questionText
@@ -76,6 +77,7 @@ class QuestionViewController: UIViewController {
             indicator.textColor = UIColor.redColor()
 
         }
+        stopAlarm()
     }
   
     @IBAction func Button2Action(sender: AnyObject) {
@@ -90,7 +92,9 @@ class QuestionViewController: UIViewController {
             indicator.text = "You got wrong!"
             indicator.textColor = UIColor.redColor()
             
-        }    }
+        }
+        stopAlarm()
+    }
     
     
     @IBAction func Button3Action(sender: AnyObject) {
@@ -106,6 +110,7 @@ class QuestionViewController: UIViewController {
             indicator.textColor = UIColor.redColor()
             
         }
+        stopAlarm()
     }
     
     @IBAction func nextQuestion(sender: AnyObject) {
@@ -124,7 +129,7 @@ class QuestionViewController: UIViewController {
     func stopAlarm(){
         if totalRight >= 2{
             resultLabel.text = "Congratulation!"
-            //alarmstop
+            sound.stop()
         }
     }
 }
