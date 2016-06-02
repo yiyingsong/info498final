@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class DescViewController: UIViewController {
 
@@ -16,6 +17,7 @@ class DescViewController: UIViewController {
     var paragraph : String = ""
     var questionsForReading = [Question]()
     var transferData = [Question]()
+    var sound : AVAudioPlayer!;
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +30,7 @@ class DescViewController: UIViewController {
         if segue.identifier == "showQuestion" {
             let questionVC  = segue.destinationViewController as! QuestionViewController
             questionVC.transferQ = questionsForReading
+            questionVC.sound = sound;
         }
     }
 }
