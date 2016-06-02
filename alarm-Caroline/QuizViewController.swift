@@ -7,11 +7,30 @@
 //
 
 import UIKit
+import AVFoundation
 
 class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     var TopicArray = [Topic]()
+    
+    var backgroundMusicPlayer = AVAudioPlayer()
+    
+    func playBackgroundMusic(filename: String) {
+        let url = NSBundle.mainBundle().URLForResource(filename, withExtension: nil)
+        guard let newURL = url else {
+            print("Could not find file: \(filename)")
+            return
+        }
+        do {
+            backgroundMusicPlayer = try AVAudioPlayer(contentsOfURL: newURL)
+            backgroundMusicPlayer.numberOfLoops = -1
+            backgroundMusicPlayer.prepareToPlay()
+            backgroundMusicPlayer.play()
+        } catch let error as NSError {
+            print(error.description)
+        }
+    }
 
     
     override func viewDidLoad() {
@@ -19,6 +38,8 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         tableView.estimatedRowHeight = 68.0
         tableView.rowHeight = UITableViewAutomaticDimension
         retrieveOffline()
+        playBackgroundMusic("load_alarm.wrm")
+
         // Do any additional setup after loading the view, typically from a nib.
         
     }
