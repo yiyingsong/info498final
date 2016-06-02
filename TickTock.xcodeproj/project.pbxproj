@@ -29,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1847AE7A1CF90C9400A0313B /* alarm-Caroline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alarm-Caroline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1847AE7A1CF90C9400A0313B /* TickTock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickTock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1847AE7D1CF90C9400A0313B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1847AE7F1CF90C9400A0313B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1847AE841CF90C9400A0313B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		1847AE7B1CF90C9400A0313B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1847AE7A1CF90C9400A0313B /* alarm-Caroline.app */,
+				1847AE7A1CF90C9400A0313B /* TickTock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1847AE791CF90C9400A0313B /* alarm-Caroline */ = {
+		1847AE791CF90C9400A0313B /* TickTock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1847AE8C1CF90C9400A0313B /* Build configuration list for PBXNativeTarget "alarm-Caroline" */;
+			buildConfigurationList = 1847AE8C1CF90C9400A0313B /* Build configuration list for PBXNativeTarget "TickTock" */;
 			buildPhases = (
 				1847AE761CF90C9400A0313B /* Sources */,
 				1847AE771CF90C9400A0313B /* Frameworks */,
@@ -121,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = "alarm-Caroline";
+			name = TickTock;
 			productName = "alarm-Caroline";
-			productReference = 1847AE7A1CF90C9400A0313B /* alarm-Caroline.app */;
+			productReference = 1847AE7A1CF90C9400A0313B /* TickTock.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1847AE751CF90C9400A0313B /* Build configuration list for PBXProject "alarm-Caroline" */;
+			buildConfigurationList = 1847AE751CF90C9400A0313B /* Build configuration list for PBXProject "TickTock" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1847AE791CF90C9400A0313B /* alarm-Caroline */,
+				1847AE791CF90C9400A0313B /* TickTock */,
 			);
 		};
 /* End PBXProject section */
@@ -310,7 +310,7 @@
 				INFOPLIST_FILE = "alarm-Caroline/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.uw.alarm-Caroline";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TickTock;
 			};
 			name = Debug;
 		};
@@ -321,14 +321,14 @@
 				INFOPLIST_FILE = "alarm-Caroline/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.uw.alarm-Caroline";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TickTock;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1847AE751CF90C9400A0313B /* Build configuration list for PBXProject "alarm-Caroline" */ = {
+		1847AE751CF90C9400A0313B /* Build configuration list for PBXProject "TickTock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1847AE8A1CF90C9400A0313B /* Debug */,
@@ -337,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1847AE8C1CF90C9400A0313B /* Build configuration list for PBXNativeTarget "alarm-Caroline" */ = {
+		1847AE8C1CF90C9400A0313B /* Build configuration list for PBXNativeTarget "TickTock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1847AE8D1CF90C9400A0313B /* Debug */,

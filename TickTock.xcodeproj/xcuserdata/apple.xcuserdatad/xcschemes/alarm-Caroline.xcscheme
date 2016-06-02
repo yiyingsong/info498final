@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1847AE791CF90C9400A0313B"
-               BuildableName = "alarm-Caroline.app"
-               BlueprintName = "alarm-Caroline"
-               ReferencedContainer = "container:alarm-Caroline.xcodeproj">
+               BuildableName = "TickTock.app"
+               BlueprintName = "TickTock"
+               ReferencedContainer = "container:TickTock.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1847AE791CF90C9400A0313B"
-            BuildableName = "alarm-Caroline.app"
-            BlueprintName = "alarm-Caroline"
-            ReferencedContainer = "container:alarm-Caroline.xcodeproj">
+            BuildableName = "TickTock.app"
+            BlueprintName = "TickTock"
+            ReferencedContainer = "container:TickTock.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1847AE791CF90C9400A0313B"
-            BuildableName = "alarm-Caroline.app"
-            BlueprintName = "alarm-Caroline"
-            ReferencedContainer = "container:alarm-Caroline.xcodeproj">
+            BuildableName = "TickTock.app"
+            BlueprintName = "TickTock"
+            ReferencedContainer = "container:TickTock.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1847AE791CF90C9400A0313B"
-            BuildableName = "alarm-Caroline.app"
-            BlueprintName = "alarm-Caroline"
-            ReferencedContainer = "container:alarm-Caroline.xcodeproj">
+            BuildableName = "TickTock.app"
+            BlueprintName = "TickTock"
+            ReferencedContainer = "container:TickTock.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
