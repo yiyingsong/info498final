@@ -38,6 +38,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     override func viewDidLoad() {
           super.viewDidLoad()
+        self.tableView.dataSource = self;
+        self.tableView.delegate = self;
         tableView.estimatedRowHeight = 68.0
         tableView.rowHeight = UITableViewAutomaticDimension
         retrieveOffline()

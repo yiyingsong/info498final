@@ -25,7 +25,7 @@
         <!--Add View Controller-->
         <scene sceneID="fOt-GG-hAS">
             <objects>
-                <viewController storyboardIdentifier="Add" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Uai-4j-IaC" customClass="AddViewController" customModule="alarm_Caroline" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Add" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Uai-4j-IaC" customClass="AddViewController" customModule="TickTock" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yuu-rm-9SE"/>
                         <viewControllerLayoutGuide type="bottom" id="9ji-dE-DLg"/>
@@ -101,7 +101,7 @@
         <!--Quiz View Controller-->
         <scene sceneID="7FO-NH-fw7">
             <objects>
-                <viewController storyboardIdentifier="quiz" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lhp-Q8-3gQ" customClass="QuizViewController" customModule="alarm_Caroline" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="quiz" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lhp-Q8-3gQ" customClass="QuizViewController" customModule="TickTock" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kr8-nk-X0A"/>
                         <viewControllerLayoutGuide type="bottom" id="kyT-nc-D8Z"/>
@@ -114,7 +114,7 @@
                                 <rect key="frame" x="0.0" y="50" width="600" height="530"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="cell" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="TGP-iV-IJr" userLabel="cell" customClass="CustomizeCell" customModule="alarm_Caroline" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="cell" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="TGP-iV-IJr" userLabel="cell" customClass="CustomizeCell" customModule="TickTock" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="92" width="600" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TGP-iV-IJr" id="Zlv-pZ-H12">
@@ -176,9 +176,6 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="gZq-xf-omU"/>
-                    <connections>
-                        <outlet property="tableView" destination="Wkf-j1-erY" id="296-dC-2AT"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BeA-eT-Eii" sceneMemberID="firstResponder"/>
             </objects>
@@ -187,7 +184,7 @@
         <!--Alarm View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="Root_View" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="AlarmViewController" customModule="alarm_Caroline" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Root_View" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="AlarmViewController" customModule="TickTock" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -200,7 +197,7 @@
                                 <rect key="frame" x="0.0" y="108" width="600" height="492"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Alarmcell" textLabel="q6m-JG-HT2" detailTextLabel="U00-X0-4wU" rowHeight="77" style="IBUITableViewCellStyleSubtitle" id="Mi3-wS-fMn" customClass="Alarmcell" customModule="alarm_Caroline" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="Alarmcell" textLabel="q6m-JG-HT2" detailTextLabel="U00-X0-4wU" rowHeight="77" style="IBUITableViewCellStyleSubtitle" id="Mi3-wS-fMn" customClass="Alarmcell" customModule="TickTock" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="92" width="600" height="77"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mi3-wS-fMn" id="4Em-w4-qzx">
@@ -308,7 +305,7 @@
         <!--DescViewController-->
         <scene sceneID="cLp-Of-amH">
             <objects>
-                <viewController id="AXg-Re-efO" userLabel="DescViewController" customClass="DescViewController" customModule="alarm_Caroline" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AXg-Re-efO" userLabel="DescViewController" customClass="DescViewController" customModule="TickTock" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Z3-qW-tgc"/>
                         <viewControllerLayoutGuide type="bottom" id="zLD-Z6-9pI"/>
@@ -365,7 +362,7 @@
         <!--Title-->
         <scene sceneID="fTD-Wj-B2b">
             <objects>
-                <viewController id="aWu-Ne-yZn" customClass="QuestionViewController" customModule="alarm_Caroline" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="aWu-Ne-yZn" customClass="QuestionViewController" customModule="TickTock" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Mpt-jR-fvj"/>
                         <viewControllerLayoutGuide type="bottom" id="oHC-FV-8me"/>
@@ -465,7 +462,7 @@
         <!--Press View Controller-->
         <scene sceneID="juL-kD-sNR">
             <objects>
-                <viewController storyboardIdentifier="press" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8j0-1c-Efz" customClass="PressViewController" customModule="alarm_Caroline" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="press" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8j0-1c-Efz" customClass="PressViewController" customModule="TickTock" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bu1-we-IcO"/>
                         <viewControllerLayoutGuide type="bottom" id="T8I-RN-x6b"/>
@@ -506,7 +503,7 @@
         <!--Type View Controller-->
         <scene sceneID="Aff-SE-fia">
             <objects>
-                <viewController storyboardIdentifier="type" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ct8-Cv-Rhb" customClass="TypeViewController" customModule="alarm_Caroline" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="type" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ct8-Cv-Rhb" customClass="TypeViewController" customModule="TickTock" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oHG-RO-HT3"/>
                         <viewControllerLayoutGuide type="bottom" id="gtW-kz-UTv"/>
