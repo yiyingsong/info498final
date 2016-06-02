@@ -28,7 +28,9 @@ class AlarmViewController: UIViewController, UITableViewDataSource, UITableViewD
 //        self.tableView.backgroundView = noDataLabel
 //        checkScheduledAlarms()
         
-        
+        self.tableView.allowsSelection = false
+        self.tableView.allowsSelectionDuringEditing = true
+
         self.navigationItem.leftBarButtonItem = self.editButtonItem()
         // alarmList[0] = Alarm(UUID: "wake", wakeTime: NSDate());
         // self.view.addSubview(self.tableView);
@@ -50,7 +52,7 @@ class AlarmViewController: UIViewController, UITableViewDataSource, UITableViewD
         //print(tableViewData)
         let wakeup = alarmList[indexPath.row].getWakeupString();
         cell.title.text! = wakeup;
-        print(wakeup);
+        print(cell.o.tag);
         cell.subtitle.text! = wakeup;
         cell.o.tag = indexPath.row;
         cell.o.addTarget(self, action: #selector(AlarmViewController.toggleAlarm(_:)), forControlEvents: UIControlEvents.ValueChanged)

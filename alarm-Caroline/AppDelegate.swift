@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         /* REGISTER NOTIFICATION ACTIONS */
         
-  
+
         
         application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [UIUserNotificationType.Alert,  UIUserNotificationType.Sound, UIUserNotificationType.Badge], categories: nil ))
         return true
@@ -29,6 +29,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, handleActionWithIdentifier identifier: String?, forLocalNotification notification: UILocalNotification, completionHandler: () -> Void) {
         completionHandler();
+    }
+    
+    func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
+        let challengePicker = Int(arc4random_uniform(3));
+        let challenges : [String] = ["type", "press", "quiz"]
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let challengeIdentifier = challenges[challengePicker];
+        let vc = storyboard.instantiateViewControllerWithIdentifier(challengeIdentifier)
+        window?.rootViewController = vc
     }
     
 

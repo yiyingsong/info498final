@@ -101,7 +101,7 @@
         <!--Quiz View Controller-->
         <scene sceneID="7FO-NH-fw7">
             <objects>
-                <viewController id="Lhp-Q8-3gQ" customClass="QuizViewController" customModule="alarm_Caroline" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="quiz" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lhp-Q8-3gQ" customClass="QuizViewController" customModule="alarm_Caroline" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kr8-nk-X0A"/>
                         <viewControllerLayoutGuide type="bottom" id="kyT-nc-D8Z"/>
@@ -115,7 +115,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="cell" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="TGP-iV-IJr" userLabel="cell" customClass="CustomizeCell" customModule="alarm_Caroline" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="600" height="60"/>
+                                        <rect key="frame" x="0.0" y="92" width="600" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TGP-iV-IJr" id="Zlv-pZ-H12">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="59"/>
@@ -317,7 +317,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6O-lF-f9B">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6O-lF-f9B">
                                 <rect key="frame" x="50" y="114" width="500" height="314"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="500" id="2vM-0t-wGn"/>
@@ -374,7 +374,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kjcvckjvkxcjvlxkjvlkcjvivhhufiadugfiushouhgfouhgfubhvfuh" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8A-Vd-Glu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="kjcvckjvkxcjvlxkjvlkcjvivhhufiadugfiushouhgfouhgfubhvfuh" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8A-Vd-Glu">
                                 <rect key="frame" x="60" y="114" width="459" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -465,7 +465,7 @@
         <!--Press View Controller-->
         <scene sceneID="juL-kD-sNR">
             <objects>
-                <viewController id="8j0-1c-Efz" customClass="PressViewController" customModule="alarm_Caroline" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="press" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8j0-1c-Efz" customClass="PressViewController" customModule="alarm_Caroline" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bu1-we-IcO"/>
                         <viewControllerLayoutGuide type="bottom" id="T8I-RN-x6b"/>
@@ -506,7 +506,7 @@
         <!--Type View Controller-->
         <scene sceneID="Aff-SE-fia">
             <objects>
-                <viewController id="ct8-Cv-Rhb" customClass="TypeViewController" customModule="alarm_Caroline" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="type" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ct8-Cv-Rhb" customClass="TypeViewController" customModule="alarm_Caroline" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oHG-RO-HT3"/>
                         <viewControllerLayoutGuide type="bottom" id="gtW-kz-UTv"/>
@@ -575,6 +575,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="pZB-t1-l1M"/>
-        <segue reference="6ea-wB-VpU"/>
+        <segue reference="mak-7P-pn0"/>
     </inferredMetricsTieBreakers>
 </document>

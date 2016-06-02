@@ -74,13 +74,13 @@ class AlarmList {
     func scheduleNotification (alarm: Alarm) {
         let notification = UILocalNotification()
         notification.category = "ALARM_CATEGORY";
-        notification.repeatInterval = NSCalendarUnit.Day
+        //notification.repeatInterval = NSCalendarUnit.Day
 
         notification.userInfo = ["AlarmID": alarm.AlarmID]
         notification.alertBody = "Time to wake up!"
         notification.fireDate = alarm.wakeup
         notification.soundName = UILocalNotificationDefaultSoundName
-        
+        //notification.setData
         
         // For debugging purposes
         let dateFormatter = NSDateFormatter()

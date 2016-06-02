@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A3C631F67310B97A9F8B26D324C3B1D4C0823FE2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A3C631F67310B97A9F8B26D324C3B1D4C0823FE2" : 0,
+    "322667542D510BB2A89CDD1978A25308316CCABD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2741ECFB-C531-4B81-B6D6-C6A890C4315B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A3C631F67310B97A9F8B26D324C3B1D4C0823FE2" : "alarm-Caroline\/",
+    "322667542D510BB2A89CDD1978A25308316CCABD" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "alarm-Caroline",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "alarm-Caroline.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jingwg\/alarm.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "322667542D510BB2A89CDD1978A25308316CCABD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wangz58\/info498final.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3C631F67310B97A9F8B26D324C3B1D4C0823FE2"
+    }
+  ]
+}
