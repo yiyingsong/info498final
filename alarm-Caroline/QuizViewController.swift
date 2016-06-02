@@ -6,13 +6,16 @@
 //  Copyright © 2016 lazyHuskies. All rights reserved.
 //
 
-import UIKit
 import AVFoundation
 
-class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+import UIKit
+
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     var TopicArray = [Topic]()
+
+    
     
     var backgroundMusicPlayer = AVAudioPlayer()
     
@@ -38,8 +41,7 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
         tableView.estimatedRowHeight = 68.0
         tableView.rowHeight = UITableViewAutomaticDimension
         retrieveOffline()
-        playBackgroundMusic("loud_alarm.caf")
-
+        playBackgroundMusic("bell.mp3")
         // Do any additional setup after loading the view, typically from a nib.
         
     }
@@ -112,7 +114,7 @@ class QuizViewController: UIViewController, UITableViewDataSource, UITableViewDe
             
             readingVC.paragraph = TopicArray[rowSelected].description
             readingVC.transferData = TopicArray[rowSelected].questionList
-           
+            readingVC.sound = backgroundMusicPlayer;
         }
     }
     
